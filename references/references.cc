@@ -15,17 +15,17 @@
 using namespace std;
 
 int main()  {
-  int number1{1};
-  float number2 = {0.4F};
-  char letra('a');
+  int test_int{1};
+  float test_float = {0.4F};
+  char test_char('a');
   bool test_bool = (true);
-  int& reference_to_number1 = number1;
-  float& reference_to_number2 = number2;
-  char& reference_to_letra = letra;
+  int& reference_to_test_int = test_int;
+  float& reference_to_test_float = test_float;
+  char& reference_to_test_char = test_char;
   bool& reference_to_test_bool = test_bool;
 
-  cout << "La variable int es: " << number1 << " y su referencia: " << reference_to_number1 << endl;
-  cout << "La variable int es: " << number2 << " y su referencia: " << reference_to_number2 << endl;
-  cout << "La variable int es: " << letra << " y su referencia: " << reference_to_letra << endl;
-  cout << "La variable int es: " << test_bool << " y su referencia: " << reference_to_test_bool << endl;
+  cout << "La variable int es: " << test_int << " y su referencia: " << reference_to_test_int << endl;
+  cout << "La variable float es: " << test_float << " y su referencia: " << reference_to_test_float << endl;
+  cout << "La variable char es: " << test_char << " y su referencia: " << reference_to_test_char << endl;
+  cout << "La variable bool es: " << test_bool << " y su referencia: " << reference_to_test_bool << endl;
 }

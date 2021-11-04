@@ -10,6 +10,7 @@
  * Truth table
  *
  */
+
 #include <iostream>
 using namespace std;
 
